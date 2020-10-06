@@ -61,7 +61,7 @@ output+=(f'')
 print(output)
 
 # code to create path for output file
-data_output = os.path.join("Output","pybank.txt")
+data_output = os.path.join("Analysis","pybank.txt")
 
 # code to write output to output file
 with open(data_output, "w", newline="") as txtfile:
